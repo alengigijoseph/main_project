@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="mp_bot">
+
+    
+    <xacro:include filename="mp_bot_links.xacro" />
+    <xacro:include filename="mp_bot_joints.xacro" />
+    <xacro:include filename="mp_bot.gazebo" />
+
+    <xacro:include filename="ros2_control.xacro"/>
+    
+</robot>
